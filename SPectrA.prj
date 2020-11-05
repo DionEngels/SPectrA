@@ -1,0 +1,98 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="424847199" file="C:\Users\ywang8\Documents\MATLAB\Add-Ons\Apps\SPectrA4\code\SPectrA.prj" location="C:\Users\ywang8\Documents\MATLAB\Add-Ons\Apps\SPectrA4\code" name="SPectrA" target="target.mlapps" target-name="Package App">
+    <param.appname>SPectrA</param.appname>
+    <param.authnamewatermark>Yuyang Wang</param.authnamewatermark>
+    <param.email>y.wang8@tue.nl</param.email>
+    <param.company>TU/e</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.6</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\ywang8\Desktop</param.output>
+    <param.guid>d923dec7-5b50-4914-8dde-d4f6202c93c6</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\SPectrA_4.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\2d_gauss_fit\Hyperspectral microscopy\D2GaussFunction.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\2d_gauss_fit\Hyperspectral microscopy\define_ROI.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\2d_gauss_fit\SM fluorescence\HSMdrift.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfCheckJavaMemory.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfCheckJavaPath.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfGetFileExtensions.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfGetPlane.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfGetReader.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\bfopen.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\createMinimalOMEXMLMetadata.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\AT Super res\bfmatlab\private\is_octave.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\BEM codes\Plasmon sensing\Lorentzfunction.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\Find_AuNP_Particles\BackgroundCorrection_WaveletSet.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\Find_AuNP_Particles\LocateBeadsProfile.m</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\Find_AuNP_Particles\Typical_BeadFilter_for_Finding_AuNPs.mat</file>
+      <file>C:\Users\ywang8\Dropbox\Matlab\Matlab codes\MATLAB functions\bfmatlab\bfInitLogging.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\apps</file>
+      <file>${PROJECT_ROOT}\bfmatlab</file>
+      <file>${PROJECT_ROOT}\functions</file>
+      <file>${PROJECT_ROOT}\PhotoluminescenceAnalApp.m</file>
+      <file>${PROJECT_ROOT}\scripts</file>
+      <file>${PROJECT_ROOT}\SPectrA.prj</file>
+      <file>${PROJECT_ROOT}\SPectrA4App.m</file>
+      <file>${PROJECT_ROOT}\SPectrA_4.mlapp</file>
+      <file>${PROJECT_ROOT}\spectral_corrections</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ywang8" name="Desktop" optional="false">C:\Users\ywang8\Desktop</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
