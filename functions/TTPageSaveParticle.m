@@ -1,4 +1,4 @@
-function SaveParticle(dir, roi, valid_tt, name_tt, valid_hsm, name_hsm, metadata)
+function TTPageSaveParticle(dir, roi, valid_tt, name_tt, valid_hsm, name_hsm, metadata)
 %SAVEPARTICLE Saves the summary of a particle to disk
 
 if ~exist([dir '\Graphs_SPectrA'], 'dir')
