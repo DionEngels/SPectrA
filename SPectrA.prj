@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="595886070" file="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1677066718" file="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
     <param.appname>SPectrA</param.appname>
     <param.authnamewatermark>Dion Engels</param.authnamewatermark>
     <param.email>d.j.engels@student.tue.nl</param.email>
@@ -37,7 +37,6 @@
     <fileset.resources>
       <file>${PROJECT_ROOT}\apps</file>
       <file>${PROJECT_ROOT}\functions</file>
-      <file>${PROJECT_ROOT}\scripts</file>
       <file>${PROJECT_ROOT}\SPectrA.prj</file>
     </fileset.resources>
     <fileset.package />
