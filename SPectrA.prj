@@ -1,14 +1,18 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="424847199" file="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="595886070" file="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
     <param.appname>SPectrA</param.appname>
     <param.authnamewatermark>Dion Engels</param.authnamewatermark>
     <param.email>d.j.engels@student.tue.nl</param.email>
     <param.company>MBx TU/e</param.company>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\SPectrA_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\SPectrA_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\SPectrA_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\SPectrA_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>Originally created by Matej Horacek, now adapted by Dion Engels to work together with PLASMON</param.summary>
     <param.description>https://github.com/DionEngels/SPectrA</param.description>
-    <param.screenshot />
+    <param.screenshot>C:\Users\s150127\AppData\Local\Temp\tp457a816f_26cd_4798_bcbd_392c4eea627d.png</param.screenshot>
     <param.version>5.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -20,13 +24,11 @@
       <item>9.6</item>
     </param.products.version>
     <param.platforms />
-    <param.output>C:\Users</param.output>
+    <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>d923dec7-5b50-4914-8dde-d4f6202c93c6</param.guid>
     <unset>
-      <param.icon />
-      <param.icons />
-      <param.screenshot />
       <param.platforms />
+      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\SPectrA.mlapp</file>
@@ -34,18 +36,13 @@
     <fileset.depfun />
     <fileset.resources>
       <file>${PROJECT_ROOT}\apps</file>
-      <file>${PROJECT_ROOT}\bfmatlab</file>
       <file>${PROJECT_ROOT}\functions</file>
-      <file>${PROJECT_ROOT}\PhotoluminescenceAnalApp.m</file>
       <file>${PROJECT_ROOT}\scripts</file>
       <file>${PROJECT_ROOT}\SPectrA.prj</file>
-      <file>${PROJECT_ROOT}\SPectrA4App.m</file>
-      <file>${PROJECT_ROOT}\SPectrA_4.mlapp</file>
-      <file>${PROJECT_ROOT}\spectral_corrections</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\" name="Users" optional="false">C:\Users</file>
+      <file location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis" name="Code SpectrA" optional="false">C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA</file>
     </build-deliverables>
     <workflow />
     <matlab>
