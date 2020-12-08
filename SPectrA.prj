@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1110523162" file="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3252027870" file="C:\Users\dione\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA\SPectrA.prj" location="C:\Users\dione\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA" name="SPectrA" target="target.mlapps" target-name="Package App">
     <param.appname>SPectrA</param.appname>
     <param.authnamewatermark>Dion Engels</param.authnamewatermark>
     <param.email>d.j.engels@student.tue.nl</param.email>
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Originally created by Matej Horacek, now adapted by Dion Engels to work together with PLASMON</param.summary>
     <param.description>https://github.com/DionEngels/SPectrA</param.description>
-    <param.screenshot>C:\Users\s150127\AppData\Local\Temp\tp6c7a63e3_97c5_40a3_80cc_67491b41b5fa.png</param.screenshot>
-    <param.version>5.0.4</param.version>
+    <param.screenshot />
+    <param.version>5.0.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -27,6 +27,7 @@
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>d923dec7-5b50-4914-8dde-d4f6202c93c6</param.guid>
     <unset>
+      <param.screenshot />
       <param.platforms />
       <param.output />
     </unset>
@@ -41,7 +42,7 @@
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis" name="Code SpectrA" optional="false">C:\Users\s150127\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA</file>
+      <file location="C:\Users\dione\OneDrive - TU Eindhoven\Werk\MBx Python analysis" name="Code SpectrA" optional="false">C:\Users\dione\OneDrive - TU Eindhoven\Werk\MBx Python analysis\Code SpectrA</file>
     </build-deliverables>
     <workflow />
     <matlab>
