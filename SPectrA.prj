@@ -13,7 +13,7 @@
     <param.summary>Originally created by Matej Horacek, now adapted by Dion Engels to work together with PLASMON</param.summary>
     <param.description>https://github.com/DionEngels/SPectrA</param.description>
     <param.screenshot />
-    <param.version>5.0.6</param.version>
+    <param.version>5.0.7</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -38,6 +38,9 @@
     <fileset.resources>
       <file>${PROJECT_ROOT}\apps</file>
       <file>${PROJECT_ROOT}\functions</file>
+      <file>${PROJECT_ROOT}\functions_edit</file>
+      <file>${PROJECT_ROOT}\functions_homepage</file>
+      <file>${PROJECT_ROOT}\functions_visualization</file>
       <file>${PROJECT_ROOT}\SPectrA.prj</file>
     </fileset.resources>
     <fileset.package />
