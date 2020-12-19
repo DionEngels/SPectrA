@@ -74,4 +74,5 @@ app.status_loaded.Color = 'Green';
 set(app.button_edit, 'Enable','on')
 set(app.button_save, 'Enable','on')
 set(app.button_visualization, 'Enable','on')
+set(app.button_custom, 'Enable','on')
 end
